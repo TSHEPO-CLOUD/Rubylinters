@@ -16,15 +16,16 @@ class AlertErrors
 
   def check_bracket_count?
     splitted_str = @str.delete(' ').split('')
-    splitted_str.cout('[') != splitted_str.count(']')
+    splitted_str.count('[') != splitted_str.count(']')
   end
 
-  def check_parenthes_count?
+  def check_parentes_count?
     splitted_str = @str.delete(' ').split('')
-    splitted_str.cout('(') != splitted_str.count(')')
+    splitted_str.count('(') != splitted_str.count(')')
   end
 
   def check_curly_count?
    splitted_str = @str.delet(' ').split('')
   end
  end
+
