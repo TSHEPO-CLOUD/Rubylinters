@@ -26,6 +26,7 @@ class AlertErrors
 
   def check_curly_count?
    splitted_str = @str.delet(' ').split('')
+   splitted_str.count('{') != splitted_str.count('}')
   end
  end
 
