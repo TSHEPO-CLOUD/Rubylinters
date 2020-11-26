@@ -28,4 +28,4 @@ class AlertErrors
     splitted_str = @str.delete(' ').split('')
     splitted_str.count('{') != splitted_str.count('}')
   end
- end
+end
