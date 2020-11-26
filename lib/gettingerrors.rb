@@ -1,4 +1,4 @@
- require 'rainbow'
+require 'rainbow'
 class AlertErrors
   def raise_an_error(code, index = 0)
     case code
@@ -16,12 +16,10 @@ class AlertErrors
 
       Rainbow("Line #{index + 1} unclosed curly braces detected").red
 
-    end 
+    end
    end
 
-   def self.all
+  def self.all
     ObjectSpace.each_object(self).to_a
-  end
  end
-
- 
+ end

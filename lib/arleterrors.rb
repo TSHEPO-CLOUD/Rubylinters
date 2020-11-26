@@ -1,13 +1,13 @@
 require_relative '../lib/arleterrors'
 
 class AlertErrors
-  def initialize(str = '', indx = 0 )
-    @str = str.gsub(/'\S+'/,'X')
+  def initialize(str = '', indx = 0)
+    @str = str.gsub(/'\S+'/, 'X')
     @indx = indx
   end
 
   def check_whitespaces?
-   @str[@str.size - 2] == ' '
+    @str[@str.size - 2] == ' '
   end
 
   def check_length?
@@ -25,8 +25,7 @@ class AlertErrors
   end
 
   def check_curly_count?
-   splitted_str = @str.delete(' ').split('')
-   splitted_str.count('{') != splitted_str.count('}')
+    splitted_str = @str.delete(' ').split('')
+    splitted_str.count('{') != splitted_str.count('}')
   end
  end
-
