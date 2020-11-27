@@ -1,5 +1,4 @@
-require_relative 'rainbow'
-
+require 'rainbow'
 class AlertErrors
   def raise_an_error(code, index = 0)
     case code

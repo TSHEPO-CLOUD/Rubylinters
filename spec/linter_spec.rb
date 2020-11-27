@@ -1,4 +1,4 @@
-require '../lib/arlet_errors'
+require_relative '../lib/arlet_errors'
 
 describe AlertErrors do
   describe '#check_whitespaces?' do
