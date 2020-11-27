@@ -100,11 +100,6 @@ To get a local copy up and running follow these simple example steps.
 - Result will be shown
 - Follow the instructions above for the live link.
 
-### Run tests
-
-- Tests passed can be found
-  [here]() by opening closed pull
-  request and navigate to passed test details.
 
 ## Built with
 
