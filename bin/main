@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require_relative '../lib/arleterrors'
+require_relative '../lib/spec/arleterrors'
 require_relative '../lib/gettingerrors'
 require_relative '../lib/testcase'
 
