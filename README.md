@@ -95,7 +95,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 - Navigate to respective folder ( Rubylinters ), put the file you want to lint
-  in 'data' folder (or copy your code into the 'fake. rb' file) and type
+  in 'data' folder (or copy your code into the 'testing. rb' file) and type
   `bin/main <your-file-name>` or `bin/main testing.rb` in your terminal.
 - Result will be shown
 - Follow the instructions above for the live link.
