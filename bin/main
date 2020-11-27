@@ -19,4 +19,4 @@ lint.content.each_with_index do |line, index|
   puts AlertErrors.new.raise_an_error(4, index) if find_error.check_bracket_count?
   puts AlertErrors.new.raise_an_error(5, index) if find_error.check_curly_count?
 end
-puts Rainbow('No offences detected').blue if ObjectSpace.each_object(AlertErrors).count.zero?
+puts Rainbow('No offenses detected').blue if ObjectSpace.each_object(AlertErrors).count.zero?

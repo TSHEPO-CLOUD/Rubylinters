@@ -23,8 +23,8 @@
 
 - There should be spaces around operators, after commas, colons and semicolons,
   around { and before }.
-
-
+  
+![screenshot](screenshot.png)
 
 ## Example of good and bad code
 
