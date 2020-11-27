@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-require_relative '../lib/spec/arleterrors'
-require_relative '../lib/gettingerrors'
-require_relative '../lib/testcase'
+require_relative '../lib/arlet_errors'
+require_relative '../lib/getting_errors'
+require_relative '../lib/test_case'
 
 lint = Test.new(ARGV[0])
 if lint.file_name

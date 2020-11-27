@@ -1,3 +1,4 @@
+require_relative '../lib/getting_errors'
 class AlertErrors
   def initialize(str = '', indx = 0)
     @str = str.gsub(/'\S+'/, 'X')
