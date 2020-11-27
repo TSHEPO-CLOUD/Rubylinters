@@ -1,4 +1,3 @@
-require_relative '../lib/arleterrors'
 
 class AlertErrors
   def initialize(str = '', indx = 0)
